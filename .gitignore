@@ -5,3 +5,12 @@ node_modules
 .env*
 next-env.d.ts
 tsconfig.tsbuildinfo
+
+# Secrets, environment variables, and deploy state
+.env
+.env.*
+*.env
+!.env.example
+.netlify
+*.pem
+*.key
